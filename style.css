@@ -1,0 +1,134 @@
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+    padding: 15px;
+    position: absolute;
+    width: 1350px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+#sec1{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
+    margin-top: 80px;
+    margin-left: -15px;
+}
+#desc{
+    text-align: center;
+    background-color: #514988;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 29px;
+    padding-bottom: 30px;
+    height: 455px;
+    width: 550px;
+    
+}
+#titulo{
+    margin: 10px;
+    color: #FFD900;
+    font-size: 55px;
+
+}
+#data{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#conteudo{
+    font-size: 19.5px;
+    margin-top: 30px;
+    padding: 10px;
+}
+#countdown{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    margin-right: -9px;
+    
+}
+.cd-item{
+    color: #514988;
+    
+    padding-top: 20px;
+    width: 100px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 0.1px;
+    display: flex;
+    
+    
+}
+#subtitulo{
+    background-color: white;
+    color: #E33381;
+    
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+#video {
+    margin-right: -12px;
+    margin-left: -80px;
+    margin-bottom: -18px;
+    margin-top: -15px;
+    background-color: white;
+    height: 10px;
+}
+#compre {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: white;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 150px;
+}
+
+#subtitulo-ing {
+    color: #FFD900;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+#ingresso{
+    display: grid;
+    grid-auto-flow: column;
+    position: absolute;
+    width: px;
+    height: 204px;
+    left: 1px;
+    top: 650px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 650px;
+    background-color: #514988;
+    border-radius: 20px;
+    color: white;
+    margin: 30px;
+    width: 300px;
+    height: 80px;
+    margin-top: 10rem;
+}
+button:hover {
+    cursor: pointer;
+    color: #FFD900;
+}
+
+img{
+    padding: 8px;
+}
